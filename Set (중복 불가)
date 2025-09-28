@@ -1,0 +1,2 @@
+var fruits = <String>{'사과', '바나나', '사과'};
+print(fruits); // {사과, 바나나}
