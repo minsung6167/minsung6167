@@ -1,0 +1,9 @@
+매개변수
+// 포지셔닝 매개변수
+String fullName(String first, String last) {
+return '$first $last';
+}
+// 네이밍 매개변수
+String createUser({required String name, int? age}) {
+return 'User: $name, Age: ${age ?? 'Unknown'}';
+}
