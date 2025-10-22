@@ -1,0 +1,12 @@
+4. 레이아웃 위젯
+주요 레이아웃 위젯
+기본 구조 위젯
+Container    #박스 모델 | padding, margin, decoration 
+  Row        #가로 배치 | mainAxisAlignment, crossAxisAlignment 
+  Column     #세로 배치 | mainAxisAlignment, crossAxisAlignment 
+  Stack      #겹침 배치 | alignment, fit 
+Positioned   #Stack 내 위치 지정 | left, top, right, bottom 
+
+공간 활용 위젯
+Expanded     #Row/Column 내 남은 공간 채우기
+SizedBox     #고정 크기 박스 또는 간격 생성
